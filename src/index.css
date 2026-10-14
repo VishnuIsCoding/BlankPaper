@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2F6BFF;
+}
+
+/* Thin black outline outside blue accent text without eating into glyph fill */
+[style*="2F6BFF"],
+[style*="rgb(47, 107, 255)"],
+.word.highlight {
+  -webkit-text-stroke: 0;
+  text-shadow:
+    -1px -1px 0 #000000,
+     0px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px  0px 0 #000000,
+     1px  0px 0 #000000,
+    -1px  1px 0 #000000,
+     0px  1px 0 #000000,
+     1px  1px 0 #000000;
+}
+

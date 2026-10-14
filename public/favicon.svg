@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a26"/>
+      <stop offset="100%" stop-color="#0a0b10"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="foldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f86ff"/>
+      <stop offset="100%" stop-color="#1e54e0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGlow)"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#2F6BFF" stroke-width="1.5" stroke-opacity="0.85"/>
+
+  <!-- Blank Paper Sheet -->
+  <g filter="url(#shadow)">
+    <!-- Main Sheet with folded corner cutout -->
+    <path d="M21 13 H35 L45 23 V48 A3 3 0 0 1 42 51 H21 A3 3 0 0 1 18 48 V16 A3 3 0 0 1 21 13 Z" fill="url(#paperGrad)"/>
+    
+    <!-- Folded Ear Flap -->
+    <path d="M35 13 V21 A2 2 0 0 0 37 23 H45 Z" fill="url(#foldGrad)"/>
+
+    <!-- Subtle technical cyber lines on paper -->
+    <line x1="24" y1="30" x2="39" y2="30" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="24" y1="37" x2="39" y2="37" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="24" y1="44" x2="33" y2="44" stroke="#2F6BFF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

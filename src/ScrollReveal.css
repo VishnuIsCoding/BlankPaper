@@ -1,0 +1,30 @@
+.scroll-reveal {
+  margin: 20px 0;
+}
+
+.scroll-reveal-text {
+  font-size: clamp(1.5rem, 3.2vw, 2.6rem);
+  line-height: 1.6;
+  font-weight: 500;
+  color: #e5e5e5;
+  text-align: left;
+}
+
+.word {
+  display: inline-block;
+}
+
+.word.highlight {
+  color: #2F6BFF !important;
+  font-weight: 700;
+  -webkit-text-stroke: 0;
+  text-shadow:
+    -1px -1px 0 #000000,
+     0px -1px 0 #000000,
+     1px -1px 0 #000000,
+    -1px  0px 0 #000000,
+     1px  0px 0 #000000,
+    -1px  1px 0 #000000,
+     0px  1px 0 #000000,
+     1px  1px 0 #000000;
+}
