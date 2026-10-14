@@ -1181,8 +1181,11 @@ function App() {
               fontWeight: 600,
               letterSpacing: '2px',
               lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.82)',
-              textShadow: '0 2px 10px rgba(0, 0, 0, 0.7)'
+              color: 'rgba(255, 255, 255, 0.85)',
+              paintOrder: 'stroke fill',
+              WebkitTextStroke: '1px #000000',
+              textShadow:
+                '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
             }}
           >
             Powered By Stubbornness
@@ -1195,8 +1198,11 @@ function App() {
               fontWeight: 600,
               letterSpacing: '2px',
               lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.82)',
-              textShadow: '0 2px 10px rgba(0, 0, 0, 0.7)'
+              color: 'rgba(255, 255, 255, 0.85)',
+              paintOrder: 'stroke fill',
+              WebkitTextStroke: '1px #000000',
+              textShadow:
+                '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
             }}
           >
             Co Powered By Ego
