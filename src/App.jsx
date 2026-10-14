@@ -1191,11 +1191,11 @@ function App() {
             style={{
               margin: 0,
               fontFamily: "'DotGothic16', monospace",
-              fontSize: 'clamp(15px, 1.5vw, 19px)',
-              fontWeight: 500,
-              letterSpacing: '1.8px',
+              fontSize: 'clamp(18px, 1.8vw, 22px)',
+              fontWeight: 600,
+              letterSpacing: '2px',
               lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.65)',
+              color: 'rgba(255, 255, 255, 0.82)',
               textShadow: '0 2px 10px rgba(0, 0, 0, 0.7)'
             }}
           >
