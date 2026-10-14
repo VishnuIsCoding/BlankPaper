@@ -1158,6 +1158,43 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Bottom Footer Credits */}
+        <footer
+          style={{
+            width: '100%',
+            padding: '70px 24px 90px',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            textAlign: 'center'
+          }}
+        >
+          <p
+            style={{
+              margin: 0,
+              fontFamily: "'DotGothic16', monospace",
+              fontSize: '13px',
+              letterSpacing: '2px',
+              color: 'rgba(255, 255, 255, 0.32)'
+            }}
+          >
+            Powered By Stubbornness
+          </p>
+          <p
+            style={{
+              margin: 0,
+              fontFamily: "'DotGothic16', monospace",
+              fontSize: '11px',
+              letterSpacing: '1.8px',
+              color: 'rgba(255, 255, 255, 0.22)'
+            }}
+          >
+            Co Powered By Ego
+          </p>
+        </footer>
       </div>
     </div>
   );
