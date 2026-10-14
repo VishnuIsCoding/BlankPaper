@@ -950,7 +950,7 @@ function App() {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: '120px 24px 180px',
+            padding: '120px 24px 80px',
             maxWidth: '1280px',
             margin: '0 auto'
           }}
@@ -1159,26 +1159,30 @@ function App() {
           </div>
         </section>
 
-        {/* Bottom Footer Credits */}
+        {/* Bottom Left Corner Footer Credits */}
         <footer
           style={{
             width: '100%',
-            padding: '70px 24px 90px',
+            padding: '24px clamp(24px, 4vw, 56px) 64px',
+            boxSizing: 'border-box',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '8px',
-            textAlign: 'center'
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
+            gap: '6px',
+            textAlign: 'left'
           }}
         >
           <p
             style={{
               margin: 0,
               fontFamily: "'DotGothic16', monospace",
-              fontSize: '13px',
+              fontSize: 'clamp(20px, 2.2vw, 26px)',
+              fontWeight: 600,
               letterSpacing: '2px',
-              color: 'rgba(255, 255, 255, 0.32)'
+              lineHeight: 1.25,
+              color: 'rgba(255, 255, 255, 0.45)',
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.6)'
             }}
           >
             Powered By Stubbornness
@@ -1187,9 +1191,12 @@ function App() {
             style={{
               margin: 0,
               fontFamily: "'DotGothic16', monospace",
-              fontSize: '11px',
+              fontSize: 'clamp(15px, 1.5vw, 19px)',
+              fontWeight: 500,
               letterSpacing: '1.8px',
-              color: 'rgba(255, 255, 255, 0.22)'
+              lineHeight: 1.25,
+              color: 'rgba(255, 255, 255, 0.32)',
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.6)'
             }}
           >
             Co Powered By Ego
