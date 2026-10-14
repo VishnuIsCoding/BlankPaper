@@ -1181,8 +1181,8 @@ function App() {
               fontWeight: 600,
               letterSpacing: '2px',
               lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.45)',
-              textShadow: '0 2px 10px rgba(0, 0, 0, 0.6)'
+              color: 'rgba(255, 255, 255, 0.82)',
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.7)'
             }}
           >
             Powered By Stubbornness
@@ -1195,8 +1195,8 @@ function App() {
               fontWeight: 500,
               letterSpacing: '1.8px',
               lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.32)',
-              textShadow: '0 2px 10px rgba(0, 0, 0, 0.6)'
+              color: 'rgba(255, 255, 255, 0.65)',
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.7)'
             }}
           >
             Co Powered By Ego
