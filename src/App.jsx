@@ -1159,54 +1159,93 @@ function App() {
           </div>
         </section>
 
-        {/* Bottom Left Corner Footer Credits */}
+        {/* Bottom Footer Credits & Copyright */}
         <footer
           style={{
             width: '100%',
             padding: '24px clamp(24px, 4vw, 56px) 64px',
             boxSizing: 'border-box',
             display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'flex-start',
-            justifyContent: 'flex-start',
-            gap: '6px',
-            textAlign: 'left'
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            alignItems: 'flex-end',
+            justifyContent: 'space-between',
+            gap: '20px'
           }}
         >
-          <p
+          {/* Left Side: Powered & Co Powered */}
+          <div
             style={{
-              margin: 0,
-              fontFamily: "'DotGothic16', monospace",
-              fontSize: 'clamp(20px, 2.2vw, 26px)',
-              fontWeight: 600,
-              letterSpacing: '2px',
-              lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.85)',
-              paintOrder: 'stroke fill',
-              WebkitTextStroke: '1px #000000',
-              textShadow:
-                '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
+              gap: '6px',
+              textAlign: 'left'
             }}
           >
-            Powered By Stubbornness
-          </p>
-          <p
+            <p
+              style={{
+                margin: 0,
+                fontFamily: "'DotGothic16', monospace",
+                fontSize: 'clamp(20px, 2.2vw, 26px)',
+                fontWeight: 600,
+                letterSpacing: '2px',
+                lineHeight: 1.25,
+                color: 'rgba(255, 255, 255, 0.85)',
+                paintOrder: 'stroke fill',
+                WebkitTextStroke: '1px #000000',
+                textShadow:
+                  '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
+              }}
+            >
+              Powered By Stubbornness
+            </p>
+            <p
+              style={{
+                margin: 0,
+                fontFamily: "'DotGothic16', monospace",
+                fontSize: 'clamp(18px, 1.8vw, 22px)',
+                fontWeight: 600,
+                letterSpacing: '2px',
+                lineHeight: 1.25,
+                color: 'rgba(255, 255, 255, 0.85)',
+                paintOrder: 'stroke fill',
+                WebkitTextStroke: '1px #000000',
+                textShadow:
+                  '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
+              }}
+            >
+              Co Powered By Ego
+            </p>
+          </div>
+
+          {/* Right Side: Copyright Team Blank Paper */}
+          <div
             style={{
-              margin: 0,
-              fontFamily: "'DotGothic16', monospace",
-              fontSize: 'clamp(18px, 1.8vw, 22px)',
-              fontWeight: 600,
-              letterSpacing: '2px',
-              lineHeight: 1.25,
-              color: 'rgba(255, 255, 255, 0.85)',
-              paintOrder: 'stroke fill',
-              WebkitTextStroke: '1px #000000',
-              textShadow:
-                '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              textAlign: 'right'
             }}
           >
-            Co Powered By Ego
-          </p>
+            <p
+              style={{
+                margin: 0,
+                fontFamily: "'DotGothic16', monospace",
+                fontSize: 'clamp(18px, 1.8vw, 22px)',
+                fontWeight: 600,
+                letterSpacing: '2px',
+                lineHeight: 1.25,
+                color: 'rgba(255, 255, 255, 0.85)',
+                paintOrder: 'stroke fill',
+                WebkitTextStroke: '1px #000000',
+                textShadow:
+                  '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 10px rgba(0, 0, 0, 0.7)'
+              }}
+            >
+              © Team Blank Paper
+            </p>
+          </div>
         </footer>
       </div>
     </div>
